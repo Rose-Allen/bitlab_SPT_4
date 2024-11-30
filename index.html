@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: #008080;
+        color: white;
+        padding: 15px;
+        text-align: left;
+        font-size: 24px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .header a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      form {
+        margin-top: 50px;
+      }
+      input,
+      select,
+      button {
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+      }
+      .logout-btn {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>TWITTER</div>
+      <div id="nav">
+        <a href="#" id="tweets">Tweets</a>
+        <a href="#" id="loginLink">Login</a>
+        <a href="#" id="registerLink">Register</a>
+      </div>
+    </div>
+
+    <div id="content"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
